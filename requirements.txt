@@ -1,0 +1,26 @@
+# FSOC Tracker — runtime dependencies.
+# Mirrors pyproject.toml [project.dependencies] + desktop + full extras,
+# pinned to versions verified by the test suite (1280+ tests).
+# Install:  pip install -r requirements.txt
+# Dev tools: pip install -r requirements-dev.txt
+
+# Core runtime (matches pyproject.toml lower bounds)
+numpy>=1.24.0
+opencv-python>=4.8.0
+pydantic>=2.0.0
+PyYAML>=6.0
+
+# Desktop GUI
+PySide6>=6.6.0
+
+# Plotting / numerics (benchmark plots, analysis)
+matplotlib>=3.7.0
+scipy>=1.10.0
+
+# AI models (GRU predictor, visual CNN training/eval)
+torch>=2.0.0
+
+# Tested configuration (Python 3.14, macOS arm64):
+#   numpy==2.5.3, opencv-python==5.0.0.93, pydantic==2.13.5,
+#   PyYAML==6.0.3, PySide6==6.11.2, matplotlib==3.11.2,
+#   scipy==1.18.1, torch==2.14.0
