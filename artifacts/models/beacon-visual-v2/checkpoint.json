@@ -1,0 +1,10 @@
+{
+  "model": "TinyVisualBeaconNet",
+  "input_width": 128,
+  "input_height": 128,
+  "seed": 2026,
+  "epochs": 5,
+  "train_samples": 3000,
+  "validation_samples": 400,
+  "best_validation_loss": 1.0500335693359375
+}

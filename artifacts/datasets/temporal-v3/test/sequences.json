@@ -1,0 +1,38 @@
+[
+  {
+    "trajectory_type": "circular",
+    "disturbance": "clear",
+    "seed": 513226,
+    "num_samples": 300
+  },
+  {
+    "trajectory_type": "straight_line",
+    "disturbance": "light",
+    "seed": 717477,
+    "num_samples": 300
+  },
+  {
+    "trajectory_type": "sinusoidal",
+    "disturbance": "light",
+    "seed": 450459,
+    "num_samples": 300
+  },
+  {
+    "trajectory_type": "straight_line",
+    "disturbance": "light",
+    "seed": 786064,
+    "num_samples": 300
+  },
+  {
+    "trajectory_type": "straight_line",
+    "disturbance": "light",
+    "seed": 438878,
+    "num_samples": 300
+  },
+  {
+    "trajectory_type": "straight_line",
+    "disturbance": "light",
+    "seed": 654571,
+    "num_samples": 300
+  }
+]

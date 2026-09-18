@@ -1,0 +1,152 @@
+[
+  {
+    "trajectory_type": "sinusoidal",
+    "disturbance": "clear",
+    "seed": 554584,
+    "num_samples": 150
+  },
+  {
+    "trajectory_type": "straight_line",
+    "disturbance": "light",
+    "seed": 526478,
+    "num_samples": 150
+  },
+  {
+    "trajectory_type": "circular",
+    "disturbance": "clear",
+    "seed": 839748,
+    "num_samples": 150
+  },
+  {
+    "trajectory_type": "figure_8",
+    "disturbance": "moderate",
+    "seed": 402414,
+    "num_samples": 150
+  },
+  {
+    "trajectory_type": "straight_line",
+    "disturbance": "light",
+    "seed": 697368,
+    "num_samples": 150
+  },
+  {
+    "trajectory_type": "circular",
+    "disturbance": "moderate",
+    "seed": 128113,
+    "num_samples": 150
+  },
+  {
+    "trajectory_type": "figure_8",
+    "disturbance": "light",
+    "seed": 643865,
+    "num_samples": 150
+  },
+  {
+    "trajectory_type": "circular",
+    "disturbance": "clear",
+    "seed": 735752,
+    "num_samples": 150
+  },
+  {
+    "trajectory_type": "straight_line",
+    "disturbance": "moderate",
+    "seed": 201469,
+    "num_samples": 150
+  },
+  {
+    "trajectory_type": "straight_line",
+    "disturbance": "clear",
+    "seed": 85945,
+    "num_samples": 150
+  },
+  {
+    "trajectory_type": "figure_8",
+    "disturbance": "light",
+    "seed": 182549,
+    "num_samples": 150
+  },
+  {
+    "trajectory_type": "straight_line",
+    "disturbance": "moderate",
+    "seed": 858597,
+    "num_samples": 150
+  },
+  {
+    "trajectory_type": "straight_line",
+    "disturbance": "light",
+    "seed": 773956,
+    "num_samples": 150
+  },
+  {
+    "trajectory_type": "random",
+    "disturbance": "clear",
+    "seed": 822761,
+    "num_samples": 150
+  },
+  {
+    "trajectory_type": "spiral",
+    "disturbance": "moderate",
+    "seed": 92135,
+    "num_samples": 150
+  },
+  {
+    "trajectory_type": "figure_8",
+    "disturbance": "clear",
+    "seed": 370798,
+    "num_samples": 150
+  },
+  {
+    "trajectory_type": "sinusoidal",
+    "disturbance": "light",
+    "seed": 887889,
+    "num_samples": 150
+  },
+  {
+    "trajectory_type": "circular",
+    "disturbance": "moderate",
+    "seed": 500351,
+    "num_samples": 150
+  },
+  {
+    "trajectory_type": "circular",
+    "disturbance": "moderate",
+    "seed": 717477,
+    "num_samples": 150
+  },
+  {
+    "trajectory_type": "circular",
+    "disturbance": "light",
+    "seed": 450385,
+    "num_samples": 150
+  },
+  {
+    "trajectory_type": "straight_line",
+    "disturbance": "moderate",
+    "seed": 975622,
+    "num_samples": 150
+  },
+  {
+    "trajectory_type": "straight_line",
+    "disturbance": "moderate",
+    "seed": 654571,
+    "num_samples": 150
+  },
+  {
+    "trajectory_type": "straight_line",
+    "disturbance": "clear",
+    "seed": 89250,
+    "num_samples": 150
+  },
+  {
+    "trajectory_type": "figure_8",
+    "disturbance": "clear",
+    "seed": 781567,
+    "num_samples": 150
+  },
+  {
+    "trajectory_type": "random",
+    "disturbance": "moderate",
+    "seed": 443414,
+    "num_samples": 150
+  }
+]

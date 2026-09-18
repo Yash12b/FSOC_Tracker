@@ -1,0 +1,31 @@
+{
+  "dataset_version": "temporal-observable-v1",
+  "generated_at_utc": "2026-09-14T06:44:33.229899+00:00",
+  "horizons_s": [
+    0.025,
+    0.05,
+    0.1,
+    0.25,
+    0.5
+  ],
+  "feature_dim": 15,
+  "sequence_length": 20,
+  "splits": {
+    "train": {
+      "num_sequences": 22,
+      "num_samples": 6600
+    },
+    "validation": {
+      "num_sequences": 4,
+      "num_samples": 1200
+    },
+    "test": {
+      "num_sequences": 6,
+      "num_samples": 1800
+    },
+    "hard_test": {
+      "num_sequences": 6,
+      "num_samples": 1800
+    }
+  }
+}

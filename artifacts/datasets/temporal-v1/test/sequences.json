@@ -1,0 +1,38 @@
+[
+  {
+    "trajectory_type": "random",
+    "disturbance": "light",
+    "seed": 545429,
+    "num_samples": 150
+  },
+  {
+    "trajectory_type": "circular",
+    "disturbance": "light",
+    "seed": 761139,
+    "num_samples": 150
+  },
+  {
+    "trajectory_type": "straight_line",
+    "disturbance": "clear",
+    "seed": 94177,
+    "num_samples": 150
+  },
+  {
+    "trajectory_type": "spiral",
+    "disturbance": "light",
+    "seed": 227238,
+    "num_samples": 150
+  },
+  {
+    "trajectory_type": "straight_line",
+    "disturbance": "clear",
+    "seed": 438878,
+    "num_samples": 150
+  },
+  {
+    "trajectory_type": "circular",
+    "disturbance": "light",
+    "seed": 513226,
+    "num_samples": 150
+  }
+]

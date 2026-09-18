@@ -1,0 +1,50 @@
+[
+  {
+    "trajectory_type": "circular",
+    "disturbance": "moderate",
+    "seed": 128113,
+    "num_samples": 300
+  },
+  {
+    "trajectory_type": "straight_line",
+    "disturbance": "clear",
+    "seed": 735752,
+    "num_samples": 300
+  },
+  {
+    "trajectory_type": "circular",
+    "disturbance": "light",
+    "seed": 513226,
+    "num_samples": 300
+  },
+  {
+    "trajectory_type": "straight_line",
+    "disturbance": "moderate",
+    "seed": 858597,
+    "num_samples": 300
+  },
+  {
+    "trajectory_type": "figure_8",
+    "disturbance": "light",
+    "seed": 227238,
+    "num_samples": 300
+  },
+  {
+    "trajectory_type": "straight_line",
+    "disturbance": "light",
+    "seed": 773956,
+    "num_samples": 300
+  },
+  {
+    "trajectory_type": "spiral",
+    "disturbance": "clear",
+    "seed": 970698,
+    "num_samples": 300
+  },
+  {
+    "trajectory_type": "random",
+    "disturbance": "moderate",
+    "seed": 758087,
+    "num_samples": 300
+  }
+]

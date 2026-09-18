@@ -1,0 +1,38 @@
+[
+  {
+    "trajectory_type": "straight_line",
+    "disturbance": "moderate",
+    "seed": 437151,
+    "num_samples": 150
+  },
+  {
+    "trajectory_type": "circular",
+    "disturbance": "moderate",
+    "seed": 160688,
+    "num_samples": 150
+  },
+  {
+    "trajectory_type": "figure_8",
+    "disturbance": "moderate",
+    "seed": 832678,
+    "num_samples": 150
+  },
+  {
+    "trajectory_type": "random",
+    "disturbance": "moderate",
+    "seed": 629764,
+    "num_samples": 150
+  },
+  {
+    "trajectory_type": "spiral",
+    "disturbance": "moderate",
+    "seed": 700265,
+    "num_samples": 150
+  },
+  {
+    "trajectory_type": "sinusoidal",
+    "disturbance": "moderate",
+    "seed": 97226,
+    "num_samples": 150
+  }
+]

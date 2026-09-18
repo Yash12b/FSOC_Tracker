@@ -1,0 +1,134 @@
+[
+  {
+    "trajectory_type": "straight_line",
+    "disturbance": "clear",
+    "seed": 858597,
+    "num_samples": 300
+  },
+  {
+    "trajectory_type": "figure_8",
+    "disturbance": "clear",
+    "seed": 643865,
+    "num_samples": 300
+  },
+  {
+    "trajectory_type": "circular",
+    "disturbance": "clear",
+    "seed": 500351,
+    "num_samples": 300
+  },
+  {
+    "trajectory_type": "straight_line",
+    "disturbance": "clear",
+    "seed": 201469,
+    "num_samples": 300
+  },
+  {
+    "trajectory_type": "straight_line",
+    "disturbance": "light",
+    "seed": 85945,
+    "num_samples": 300
+  },
+  {
+    "trajectory_type": "figure_8",
+    "disturbance": "light",
+    "seed": 822761,
+    "num_samples": 300
+  },
+  {
+    "trajectory_type": "straight_line",
+    "disturbance": "clear",
+    "seed": 773956,
+    "num_samples": 300
+  },
+  {
+    "trajectory_type": "straight_line",
+    "disturbance": "light",
+    "seed": 975622,
+    "num_samples": 300
+  },
+  {
+    "trajectory_type": "straight_line",
+    "disturbance": "light",
+    "seed": 526478,
+    "num_samples": 300
+  },
+  {
+    "trajectory_type": "circular",
+    "disturbance": "clear",
+    "seed": 128113,
+    "num_samples": 300
+  },
+  {
+    "trajectory_type": "circular",
+    "disturbance": "light",
+    "seed": 182549,
+    "num_samples": 300
+  },
+  {
+    "trajectory_type": "sinusoidal",
+    "disturbance": "light",
+    "seed": 227238,
+    "num_samples": 300
+  },
+  {
+    "trajectory_type": "straight_line",
+    "disturbance": "clear",
+    "seed": 89250,
+    "num_samples": 300
+  },
+  {
+    "trajectory_type": "circular",
+    "disturbance": "light",
+    "seed": 926764,
+    "num_samples": 300
+  },
+  {
+    "trajectory_type": "circular",
+    "disturbance": "light",
+    "seed": 839748,
+    "num_samples": 300
+  },
+  {
+    "trajectory_type": "straight_line",
+    "disturbance": "light",
+    "seed": 697368,
+    "num_samples": 300
+  },
+  {
+    "trajectory_type": "straight_line",
+    "disturbance": "clear",
+    "seed": 433015,
+    "num_samples": 300
+  },
+  {
+    "trajectory_type": "circular",
+    "disturbance": "light",
+    "seed": 450385,
+    "num_samples": 300
+  },
+  {
+    "trajectory_type": "sinusoidal",
+    "disturbance": "clear",
+    "seed": 443414,
+    "num_samples": 300
+  },
+  {
+    "trajectory_type": "figure_8",
+    "disturbance": "clear",
+    "seed": 781567,
+    "num_samples": 300
+  },
+  {
+    "trajectory_type": "straight_line",
+    "disturbance": "clear",
+    "seed": 761139,
+    "num_samples": 300
+  },
+  {
+    "trajectory_type": "straight_line",
+    "disturbance": "clear",
+    "seed": 94177,
+    "num_samples": 300
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "trajectory_type": "sinusoidal",
+    "disturbance": "clear",
+    "seed": 545429,
+    "num_samples": 300
+  },
+  {
+    "trajectory_type": "circular",
+    "disturbance": "clear",
+    "seed": 370798,
+    "num_samples": 300
+  },
+  {
+    "trajectory_type": "figure_8",
+    "disturbance": "light",
+    "seed": 402414,
+    "num_samples": 300
+  },
+  {
+    "trajectory_type": "straight_line",
+    "disturbance": "clear",
+    "seed": 735752,
+    "num_samples": 300
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "trajectory_type": "sinusoidal",
+    "disturbance": "light",
+    "seed": 363906,
+    "num_samples": 300
+  },
+  {
+    "trajectory_type": "straight_line",
+    "disturbance": "clear",
+    "seed": 438878,
+    "num_samples": 300
+  },
+  {
+    "trajectory_type": "straight_line",
+    "disturbance": "moderate",
+    "seed": 975622,
+    "num_samples": 300
+  },
+  {
+    "trajectory_type": "straight_line",
+    "disturbance": "moderate",
+    "seed": 717477,
+    "num_samples": 300
+  },
+  {
+    "trajectory_type": "circular",
+    "disturbance": "moderate",
+    "seed": 500351,
+    "num_samples": 300
+  },
+  {
+    "trajectory_type": "circular",
+    "disturbance": "light",
+    "seed": 450385,
+    "num_samples": 300
+  },
+  {
+    "trajectory_type": "spiral",
+    "disturbance": "light",
+    "seed": 354525,
+    "num_samples": 300
+  },
+  {
+    "trajectory_type": "figure_8",
+    "disturbance": "light",
+    "seed": 887889,
+    "num_samples": 300
+  },
+  {
+    "trajectory_type": "figure_8",
+    "disturbance": "moderate",
+    "seed": 92135,
+    "num_samples": 300
+  }
+]

@@ -1,0 +1,91 @@
+# FSOC Tracker - Default Configuration
+# SIH26169: AI-Based Virtual Camera Tracking System
+
+app:
+  name: "FSOC Tracker"
+  version: "0.1.0"
+  session_id: ""  # auto-generated if empty
+  log_level: "INFO"
+  log_dir: "logs"
+
+camera:
+  width: 640
+  height: 480
+  horizontal_fov_deg: 4.0
+  vertical_fov_deg: 3.0
+  update_rate_hz: 30.0
+  color_model: "BGR"
+
+target:
+  size_px: 10
+  shape: "square"  # square | circle
+  color_bgr: [255, 255, 255]
+  motion_type: "straight_line"  # straight_line | circular | figure_8 | random
+
+simulation:
+  canvas_width: 2000
+  canvas_height: 2000
+  canvas_depth: 100.0
+  world_unit: "pixel"
+
+tracking:
+  acquisition_timeout_s: 2.0
+  reacquisition_timeout_s: 1.0
+  tracking_error_limit_px: 10.0
+  target_loss_limit_percent: 5.0
+  min_processing_fps: 20.0
+  algorithm: "nearest_centroid"  # nearest_centroid | kalman | correlation
+
+control:
+  max_pan_speed_deg_s: 5.0
+  max_tilt_speed_deg_s: 5.0
+  update_rate_hz: 20.0
+  algorithm: "pid"  # pid | bang_bang | mpc
+  pid:
+    kp_pan: 0.5
+    ki_pan: 0.01
+    kd_pan: 0.1
+    kp_tilt: 0.5
+    ki_tilt: 0.01
+    kd_tilt: 0.1
+
+disturbance:
+  enabled: false
+  types: []  # gaussian | salt_pepper | poisson | jitter | haze | fog | rain | low_light
+  gaussian_sigma: 5.0
+  salt_pepper_amount: 0.01
+  poisson_gain: 3.0
+  jitter_px: 2.0
+  haze_density: 0.3
+  fog_density: 0.5
+  rain_intensity: 0.3
+
+input:
+  source_type: "synthetic"  # synthetic | video | camera | stream
+  video_path: ""
+  camera_id: 0
+  stream_url: ""
+  loop: false
+
+output:
+  save_video: false
+  video_path: "data/outputs/"
+  save_frames: false
+  frames_dir: "data/outputs/frames/"
+
+performance:
+  max_fps: 60
+  enable_profiling: false
+
+visualization:
+  enabled: true
+  show_hud: true
+  show_camera_view: true
+  show_global_scene: false
+  hud_font_scale: 0.6
+  hud_color: [0, 255, 0]
+
+benchmark:
+  enabled: false
+  video_dir: "data/input/"
+  report_dir: "data/outputs/benchmarks/"

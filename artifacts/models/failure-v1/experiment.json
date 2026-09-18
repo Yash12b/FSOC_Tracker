@@ -1,0 +1,32 @@
+{
+  "model": "FailurePredictor-logistic-v1",
+  "window_size": 10,
+  "train_samples": 3500,
+  "val_samples": 700,
+  "test_samples": 840,
+  "train_failure_rate": 0.0,
+  "train_accuracy": 1.0,
+  "val": {
+    "accuracy": 1.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "bce_loss": 0.6931469805599654,
+    "tp": 0.0,
+    "fp": 0.0,
+    "tn": 700.0,
+    "fn": 0.0
+  },
+  "test": {
+    "accuracy": 1.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "bce_loss": 0.6931469805599656,
+    "tp": 0.0,
+    "fp": 0.0,
+    "tn": 840.0,
+    "fn": 0.0
+  },
+  "seed": 42
+}

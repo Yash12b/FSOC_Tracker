@@ -1,0 +1,21 @@
+{
+  "n_samples": 5000,
+  "n_types": 7,
+  "type_names": [
+    "clear",
+    "fog",
+    "rain",
+    "turbulence",
+    "dust",
+    "smoke",
+    "snow"
+  ],
+  "feature_dim": 12,
+  "compensation_dim": 6,
+  "sequence_length": 10,
+  "models": [
+    "disturbance_classifier.pt",
+    "adaptive_beam_controller.pt",
+    "atmospheric_predictor.pt"
+  ]
+}

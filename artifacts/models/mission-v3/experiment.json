@@ -1,0 +1,31 @@
+{
+  "dataset_version": "temporal-observable-v1",
+  "dataset_dir": "artifacts/datasets/temporal-v3",
+  "model_versions": {
+    "motion": "MotionNet-linear-v2",
+    "situation": "SituationNet-linear-v2",
+    "policy": "PolicyNet-linear-v2"
+  },
+  "train_samples": 6600,
+  "val_samples": 1200,
+  "test_samples": 1800,
+  "seed": 42,
+  "motion": {
+    "train_rmse_euclidean": 3.3264893010368883,
+    "val_rmse_euclidean": 5.09469995558917,
+    "test_rmse_euclidean": 3.965528445758069,
+    "train_p95_euclidean": 8.21281782850957,
+    "val_p95_euclidean": 11.31421348748397,
+    "test_p95_euclidean": 10.810173076967104
+  },
+  "situation": {
+    "train_accuracy": 0.9895454545454545,
+    "val_accuracy": 0.965,
+    "test_accuracy": 0.9894444444444445
+  },
+  "policy": {
+    "train_accuracy": 0.9895454545454545,
+    "val_accuracy": 0.965,
+    "test_accuracy": 0.9894444444444445
+  }
+}

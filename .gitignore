@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Testing
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environment
+.env
+
+# Generated data
+data/generated/*
+data/outputs/*
+logs/*
+artifacts/reports/*
+# Large regenerable artifacts (regenerate via scripts below; small
+# trained weights in artifacts/models/* stay tracked)
+artifacts/models/heavy-training-v1/
+artifacts/datasets/beacon-v2/
+artifacts/datasets/beacon-v3/
+!data/generated/.gitkeep
+!data/outputs/.gitkeep
+!logs/.gitkeep
+!artifacts/reports/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Models / weights
+*.pt
+*.onnx
+*.weights
